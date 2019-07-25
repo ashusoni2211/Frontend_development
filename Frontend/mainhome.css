@@ -1,0 +1,61 @@
+body{
+    background-image: url(mainhome.jpg) ;
+    animation: hi 10s infinite alternate;
+}
+@keyframes hi{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 0% 45%;
+    }
+}
+
+h1{
+    margin-top: 32vh;
+    font-style: italic;
+    font-size: 7vw;
+    text-shadow: .2vw .2vw whitesmoke;
+    color: rgba(196, 230, 75, 0.979);
+    text-align: center;
+}
+
+button{
+    transition-delay: 5s;
+    margin-top: 10vh;
+    margin-left: 43vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    border-radius: 2vw;
+    box-shadow: .2vw .2vw .2vw .2vw whitesmoke;
+    background-color: aqua;
+    animation: ex 2s infinite alternate-reverse;
+    font-size: 2vw;
+}
+@keyframes ex{
+    from {
+        background-color: aqua;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+p{
+    font-style: italic;
+    font-size: 2.5vw;
+    color: aliceblue;
+    text-align: center;
+    animation: ex1 2s infinite alternate-reverse;
+}
+@keyframes ex1{
+    from{
+        color: whitesmoke;
+    }
+    to{
+        color: aqua;
+    }
+}
+

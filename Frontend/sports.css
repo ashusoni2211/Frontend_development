@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    background-image: url("sports1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+ul{
+    background-color: black;
+    list-style: none;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    color: antiquewhite;
+    float: left;
+    font-style: italic;
+    font-size: 2.7vw;
+    padding: 1% 2.24%;
+}
+li:hover{
+    background-color: #252525;
+}
+li:active{
+    background-color: azure;
+    color: black;
+}
+
+.para1{
+    text-align: center;
+    font-style: italic;
+    font-size: 4vw;
+    text-shadow: .2vw .2vw rgb(194, 149, 91);
+}
+
+
+.para2{
+    border-radius: 1vw;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    margin-top:5%;
+    font-size: 2.3vw;
+    padding:.6vw 5.25vw;
+    background-color: #333333;
+}
+.para2:hover{
+    background-color: #111111;
+    color:white;
+}
+.para3{
+    border-radius: 1vw;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 2.3vw;
+    padding: .6vw  4.75vw;
+    background-color: #333333;
+}
+.para3:hover{
+    background-color: #111111;
+    color:white;
+}
+.para4{
+    border-radius: 1vw;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 2.3vw;
+    padding: .6vw  3.5vw; 
+    background-color: #333333;
+}
+.para4:hover{
+    background-color: #111111;
+    color:white;
+}
+.para5{
+    border-radius: 1vw;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 2.3vw;
+    padding: .6vw 4vw;
+    background-color: #333333;
+}
+.para5:hover{
+    background-color: #111111;
+    color:white;
+}
+.para6{
+    border-radius: 1vw;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 2.3vw;
+    padding: .6vw 5vw;
+    background-color: #333333;
+}
+.para6:hover{
+    background-color: #111111;
+    color:white;
+}
+.para7{
+    border: none;
+    color: white;
+    margin-left:5%;
+    font-size: 2.3vw;
+    padding: .6vw  4.5vw;
+    border-radius: 1vw;
+    background-color: #333333;
+}
+.para7:hover{
+    background-color: #111111;
+    color:white;
+}
+
+iframe{
+margin-left: 40%;
+position: absolute;
+margin-top: -28%;
+width: 700px;
+height: 400px;
+border: 1vw dashed rgba(24, 108, 129, 0.719);
+border-radius: 2vw; 
+}
